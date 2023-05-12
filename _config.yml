@@ -8,7 +8,7 @@ middle_name:
 last_name: An
 email: namin0202@gmai.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Graduate Student at KAIST AI.
+  Graduate Student at KAIST AI
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -269,8 +269,8 @@ display_tags: ['formatting', 'images', 'links', 'math', 'code'] # this tags will
 
 scholar:
 
-  last_name: [Einstein]
-  first_name: [Albert, A.]
+  last_name: [An]
+  first_name: [Na Min]
 
   style: apa
   locale: en
