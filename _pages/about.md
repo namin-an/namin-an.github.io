@@ -6,7 +6,7 @@ subtitle: M.S. and Ph.D. Candidate at KAIST AI
 
 profile:
   align: right
-  image: ../assets/img/prof_pic.jpg
+  image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
     <p>Kim Jaechul AI Graduate School, Building 9</p>
