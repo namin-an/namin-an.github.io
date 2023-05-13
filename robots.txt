@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://namin-an.github.io/blog//sitemap.xml
+Sitemap: https://namin-an.github.io/sitemap.xml
