@@ -6,7 +6,7 @@ subtitle: MS and PhD Student at <a href='https://gsai.kaist.ac.kr/'>KAIST AI</a>
 
 profile:
   align: left
-  image: prof_pic.jpg
+  image: prof_pic.JPG
   image_circular: false # crops the image to make it circular
   address: 
 
