@@ -5,15 +5,12 @@ permalink: /
 subtitle: MS and PhD Student at <a href='https://gsai.kaist.ac.kr/'>KAIST AI</a>.
 
 profile:
-  align: right
+  align: left
   image: prof_pic.JPG
-  image_circular: true # crops the image to make it circular
-  address: >
-    # <p>Kim Jaechul AI Graduate School, Building 9</p>
-    # <p>Hoegi-ro 85, Dongdaemun-gu,</p>
-    # <p>Seoul, South Korea</p>
+  image_circular: false # crops the image to make it circular
+  address: 
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
