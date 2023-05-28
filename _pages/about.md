@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: MS and PhD Student at <a href='https://gsai.kaist.ac.kr/'>KAIST AI</a>.
+subtitle: MS/PhD Candidate at <a href='https://gsai.kaist.ac.kr/'>KAIST AI</a>
 
 profile:
   align: left
