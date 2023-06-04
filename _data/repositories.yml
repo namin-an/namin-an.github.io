@@ -1,12 +1,10 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - namin-an
+  - xfactlab
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - xfactlab/XNLI
+  - xfactlab/HumLLMDist
+  - namin-an/Flourescence
+  - namin-an/Bioniceye
+  - namin-an/ArtificialVision
