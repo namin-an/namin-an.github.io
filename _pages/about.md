@@ -18,12 +18,6 @@ social: true  # includes social icons at the bottom of the page
 
 Creative. Dilligent. Motivated. Open-Minded. Resourceful.
 
-These are the attributes that I keep in mind in order to become a successful AI researcher. I believe that AI would make the world a cost-efficient place, assisting humans to perform various tasks like simulating visual prosthetic devices for visually impaired people. This is the very first research topic that I have encountered while working at <a href='https://imvisionlab.com/'>Im Lab</a> with supportive advisor <a href='https://scholar.google.com/citations?user=jidhBw0AAAAJ&hl=en'>Maesoon Im</a> during the KIST internship.
+These are the attributes that I keep in mind in order to become a successful AI researcher. I believe that AI can assist humans to perform various tasks like simulating visual prosthetic devices for visually impaired people. This is my first research topic while working at <a href='https://imvisionlab.com/'>Im Lab</a> with supportive advisor <a href='https://scholar.google.com/citations?user=jidhBw0AAAAJ&hl=en'>Maesoon Im</a> as a student intern.
 
-Since March 2023, I became a full-time graduate student at <a href='https://xfact.net/'>XFact Lab</a> adviced by encouraging <a href='https://scholar.google.com/citations?user=hao9RrgAAAAJ&hl=en&oi=ao'>James Thorne</a>. Here are several research topics that I am interested in nowadays:
-
-- Ambiguity, Uncertainty, and Disagreements
-- Multimodal Learning 
-- Parameter-Efficient Transformer
-- Sentence Embeddings
-- Explaianble AI
+Since March 2023, I became a full-time graduate student at <a href='https://xfact.net/'>XFact Lab</a> adviced by encouraging <a href='https://scholar.google.com/citations?user=hao9RrgAAAAJ&hl=en&oi=ao'>James Thorne</a>. I am interested in exploring and explaining to what extent humans and AI models align in domains like uncertinaty and multimodal.
