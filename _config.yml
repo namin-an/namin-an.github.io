@@ -8,7 +8,7 @@ middle_name:
 last_name: An
 email: namin0202@gmai.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Graduate Student at KAIST AI
+  Ph.D. student at KAIST AI
 footer_text: 
 keywords: natural language processing, artificial vision  # add your own keywords or leave empty
 
