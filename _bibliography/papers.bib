@@ -35,6 +35,18 @@
   abstract="Image Captioning for state-of-the-art VLMs has significantly improved over time; however, this comes at the cost of increased computational complexity, making them less accessible for resource-constrained applications such as mobile devices and assistive technologies. Alternatively, smaller VLMs prioritize high-level scene descriptions, overlooking finer details that contribute to a richer understanding of an image. In this paper, we introduce a training-free framework that enhances caption diversity and informativeness by explicitly attending to distinct image regions using a comparably small VLM, BLIP, as the backbone. Our approach leverages structured segmentation to produce hierarchical representations that capture both global and localized semantics. Without requiring additional model training, we demonstrate that our method allows smaller VLMs to achieve performance comparable to larger models in terms of image-caption alignment, semantic integrity, and diversity. We evaluate our framework on MSCOCO, Flickr30k, and Nocaps test datasets, achieving a Div-2 score of 0.735, 0.750, and 0.748 for each dataset respectively, while maintaining strong image-caption relevancy and semantic integrity with the human-annotated captions."
 }
 
+@article{kim2025tom,
+  title={When Tom Eats Kimchi: Evaluating Cultural Bias of Multimodal Large Language Models in Cultural Mixture Contexts},
+  author={Kim$*$, Jun Seong and Thu$*$, Kyaw Ye and Ismayilzada, Javad and Park, Junyeong and Kim, Eunsu and Ahmad, Huzama and An, Na Min and Thorne, James and Oh, Alice},
+  journal={Accepted to Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (NAACL)},
+  year={2025},
+  url=https://arxiv.org/abs/2503.16826,
+  preview={tom_kimchi.png}
+  arxiv="2503.16826",
+  note = {$*$ indicates equal contribution.},
+  abstract="In a highly globalized world, it is important for multi-modal large language models (MLLMs) to recognize and respond correctly to mixedcultural inputs. For example, a model should correctly identify kimchi (Korean food) in an image both when an Asian woman is eating it, as well as an African man is eating it. However, current MLLMs show an over-reliance on the visual features of the person, leading to misclassification of the entities. To examine the robustness of MLLMs to different ethnicity, we introduce MIXCUBE, a cross-cultural bias benchmark, and study elements from five countries and four ethnicities. Our findings reveal that MLLMs achieve both higher accuracy and lower sensitivity to such perturbation for high-resource cultures, but not for low-resource cultures. GPT-4o, the best-performing model overall, shows up to 58% difference in accuracy between the original and perturbed cultural settings in low-resource cultures. "
+}
+
 @article{bayramli2025diffusion,
   title={Diffusion Models Through a Global Lens: Are They Culturally Inclusive?},
   author={Bayramli$*$, Zahra and Suleymanzade$*$, Ayhan and An, Na Min and Ahmad, Huzama and Kim, Eunsu and Park, Junyeong and Thorne, James and Oh, Alice},
