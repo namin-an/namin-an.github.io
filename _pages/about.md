@@ -22,4 +22,4 @@ These are the attributes that I keep in mind in order to become a successful AI 
 
 Since March 2023, I became a full-time graduate student at <a href='https://xfact.net/'>XFact Lab</a> co-adviced by encouraging <a href='https://scholar.google.com/citations?user=hao9RrgAAAAJ&hl=en&oi=ao'>James Thorne</a> and <a href='https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en'>Hyunjung Shim</a>. I am excited to visit <a href='https://www.copenlu.com/'>CopeNLU</a> starting March 2025 to collaborate with <a href='https://scholar.google.co.uk/citations?user=DjJp0dcAAAAJ&hl'>Isabelle Augenstein</a>.
 
-If you are interested in teamwork regarding topics such as interpretability, multimodality, and human-centered AI, feel free to contact me via <a href="mailto:namin0202@gmail.com">namin0202@gmail.com</a>!
+If you are interested in teamwork regarding topics such as interpretability, multimodality, and human-centered AI, feel free to contact me via <a href="mailto:naminan@kaist.ac.kr">naminan@kaist.ac.kr</a>!
