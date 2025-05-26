@@ -122,6 +122,76 @@
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/I0T-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/I0T-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/I0T-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/I0T.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="I0T.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="an2024i0t" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">I0T: Embedding Standardization Method Towards Zero Modality Gap</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <em>Na Min An*</em>, Eunki Kim*, James Thorne, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Hyunjung Shim' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Association for Computational Linguistics (ACL)</em>, 2025
+        </div>
+        <div class="periodical">
+          * indicates equal contribution.
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2412.14384" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Contrastive Language-Image Pretraining (CLIP) enables zero-shot inference in downstream tasks such as image-text retrieval and classification. However, recent works extending CLIP suffer from the issue of modality gap, which arises when the image and text embeddings are projected to disparate manifolds, deviating from the intended objective of image-text contrastive learning. We discover that this phenomenon is linked to the modality-specific characteristic that each image/text encoder independently possesses and propose two methods to address the modality gap: (1) a post-hoc embedding standardization method, I0Tpost that reduces the modality gap approximately to zero and (2) a trainable method, I0Tasync, to alleviate the modality gap problem by adding two normalization layers for each encoder. Our I0T framework can significantly reduce the modality gap while preserving the original embedding representations of trained models with their locked parameters. In practice, I0Tpost can serve as an alternative explainable automatic evaluation metric of widely used CLIPScore (CLIP-S).</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/framework-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/framework-800.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/framework-1400.webp"></source>
@@ -430,7 +500,7 @@
         
         
         <div class="periodical">
-          <em>Workshop on Cross-Cultural Considerations in NLP (NAACL)</em>, 2025
+          <em>Nations of the Americas Chapter of the Association for Computational Linguistics Workshop on Cross-Cultural Considerations in NLP (NAACL)</em>, 2025
         </div>
         <div class="periodical">
           * indicates equal contribution.
@@ -526,76 +596,6 @@
 
   <h2 class="year">2024</h2>
   <ol class="bibliography">
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/I0T-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/I0T-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/I0T-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/I0T.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="I0T.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-</div>
-
-        <!-- Entry bib key -->
-        <div id="an2024i0t" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">I0T: Embedding Standardization Method Towards Zero Modality Gap</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        <em>Na Min An*</em>, Eunki Kim*, James Thorne, and
-          <span class="more-authors" title="click to view 1 more author" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '1 more author' ? 'Hyunjung Shim' : '1 more author';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">1 more author</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Association for Computational Linguistics (ACL)</em>, 2024
-        </div>
-        <div class="periodical">
-          * indicates equal contribution.
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2412.14384" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-          </div>
-          
-          <div class="badges">
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Contrastive Language-Image Pretraining (CLIP) enables zero-shot inference in downstream tasks such as image-text retrieval and classification. However, recent works extending CLIP suffer from the issue of modality gap, which arises when the image and text embeddings are projected to disparate manifolds, deviating from the intended objective of image-text contrastive learning. We discover that this phenomenon is linked to the modality-specific characteristic that each image/text encoder independently possesses and propose two methods to address the modality gap: (1) a post-hoc embedding standardization method, I0Tpost that reduces the modality gap approximately to zero and (2) a trainable method, I0Tasync, to alleviate the modality gap problem by adding two normalization layers for each encoder. Our I0T framework can significantly reduce the modality gap while preserving the original embedding representations of trained models with their locked parameters. In practice, I0Tpost can serve as an alternative explainable automatic evaluation metric of widely used CLIPScore (CLIP-S).</p>
-          </div>
-        </div>
-      </div>
-</li>
 <li>
 <!-- _layouts/bib.html -->
       <div class="row">
