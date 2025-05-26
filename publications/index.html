@@ -122,6 +122,76 @@
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/framework-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/framework-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/framework-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/framework.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="framework.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="bayramli2025diffusion" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Diffusion Models Through a Global Lens: Are They Culturally Inclusive?</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Zahra Bayramli*, Ayhan Suleymanzade*, <em>Na Min An</em>, and
+          <span class="more-authors" title="click to view 5 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '5 more authors' ? 'Huzama Ahmad, Eunsu Kim, Junyeong Park, James Thorne, Alice Oh' : '5 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">5 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Association for Computational Linguistics (ACL)</em>, 2025
+        </div>
+        <div class="periodical">
+          * indicates equal contribution.
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2502.08914" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Text-to-image diffusion models have recently enabled the creation of visually compelling, detailed images from textual prompts. However, their ability to accurately represent various cultural nuances remains an open question. In our work, we introduce CultDiff benchmark, evaluating state-of-the-art diffusion models whether they can generate culturally specific images spanning ten countries. We show that these models often fail to generate cultural artifacts in architecture, clothing, and food, especially for underrepresented country regions, by conducting a fine-grained analysis of different similarity aspects, revealing significant disparities in cultural relevance, description fidelity, and realism compared to real-world reference images. With the collected human evaluations, we develop a neural-based image-image similarity metric, namely, CultDiff-S, to predict human judgment on real and generated images with cultural artifacts. Our work highlights the need for more inclusive generative AI systems and equitable dataset representation over a wide range of cultures.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/dimensions_assignment-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/dimensions_assignment-800.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/dimensions_assignment-1400.webp"></source>
@@ -162,7 +232,7 @@
         
         
         <div class="periodical">
-          <em>arXiv preprint arXiv:2503.13369</em>, 2025
+          <em>Association for Computational Linguistics (ACL)</em>, 2025
         </div>
         <div class="periodical">
           
@@ -175,8 +245,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -247,8 +315,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -307,8 +373,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -366,7 +430,7 @@
         
         
         <div class="periodical">
-          <em>Accepted to Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (NAACL)</em>, 2025
+          <em>Workshop on Cross-Cultural Considerations in NLP (NAACL)</em>, 2025
         </div>
         <div class="periodical">
           * indicates equal contribution.
@@ -379,85 +443,11 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>In a highly globalized world, it is important for multi-modal large language models (MLLMs) to recognize and respond correctly to mixedcultural inputs. For example, a model should correctly identify kimchi (Korean food) in an image both when an Asian woman is eating it, as well as an African man is eating it. However, current MLLMs show an over-reliance on the visual features of the person, leading to misclassification of the entities. To examine the robustness of MLLMs to different ethnicity, we introduce MIXCUBE, a cross-cultural bias benchmark, and study elements from five countries and four ethnicities. Our findings reveal that MLLMs achieve both higher accuracy and lower sensitivity to such perturbation for high-resource cultures, but not for low-resource cultures. GPT-4o, the best-performing model overall, shows up to 58% difference in accuracy between the original and perturbed cultural settings in low-resource cultures.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/framework-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/framework-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/framework-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/framework.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="framework.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-</div>
-
-        <!-- Entry bib key -->
-        <div id="bayramli2025diffusion" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Diffusion Models Through a Global Lens: Are They Culturally Inclusive?</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Zahra Bayramli*, Ayhan Suleymanzade*, <em>Na Min An</em>, and
-          <span class="more-authors" title="click to view 5 more authors" onclick="
-                var element = $(this);
-                element.attr('title', '');
-                var more_authors_text = element.text() == '5 more authors' ? 'Huzama Ahmad, Eunsu Kim, Junyeong Park, James Thorne, Alice Oh' : '5 more authors';
-                var cursorPosition = 0;
-                var textAdder = setInterval(function(){
-                  element.text(more_authors_text.substring(0, cursorPosition + 1));
-                  if (++cursorPosition == more_authors_text.length){
-                    clearInterval(textAdder);
-                  }
-              }, '10');
-              ">5 more authors</span>
-</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>Accepted to Proceedings of the 3rd Workshop on Cross-Cultural Considerations in NLP (NAACL)</em>, 2025
-        </div>
-        <div class="periodical">
-          * indicates equal contribution.
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2502.08914" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-          </div>
-          
-          <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Text-to-image diffusion models have recently enabled the creation of visually compelling, detailed images from textual prompts. However, their ability to accurately represent various cultural nuances remains an open question. In our work, we introduce CultDiff benchmark, evaluating state-of-the-art diffusion models whether they can generate culturally specific images spanning ten countries. We show that these models often fail to generate cultural artifacts in architecture, clothing, and food, especially for underrepresented country regions, by conducting a fine-grained analysis of different similarity aspects, revealing significant disparities in cultural relevance, description fidelity, and realism compared to real-world reference images. With the collected human evaluations, we develop a neural-based image-image similarity metric, namely, CultDiff-S, to predict human judgment on real and generated images with cultural artifacts. Our work highlights the need for more inclusive generative AI systems and equitable dataset representation over a wide range of cultures.</p>
           </div>
         </div>
       </div>
@@ -523,8 +513,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -586,7 +574,7 @@
         
         
         <div class="periodical">
-          <em>arXiv preprint arXiv:2412.14384</em>, 2024
+          <em>Association for Computational Linguistics (ACL)</em>, 2024
         </div>
         <div class="periodical">
           * indicates equal contribution.
@@ -599,8 +587,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -658,7 +644,7 @@
         
         
         <div class="periodical">
-          <em>In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, 2024
+          <em>In Empirical Methods in Natural Language Processing (EMNLP)</em>, 2024
         </div>
         <div class="periodical">
           
@@ -672,8 +658,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -718,7 +702,7 @@
         
         
         <div class="periodical">
-          <em>In Findings of the Association for Computational Linguistics: EACL 2024</em>, Mar 2024
+          <em>In Findings of the Association for Computational Linguistics (EACL)</em>, 2024
         </div>
         <div class="periodical">
           
@@ -731,8 +715,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -781,7 +763,7 @@
         
         
         <div class="periodical">
-          <em>In Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)</em>, Dec 2023
+          <em>In Empirical Methods in Natural Language Processing (EMNLP)</em>, 2023
         </div>
         <div class="periodical">
           * indicates equal contribution.
@@ -795,8 +777,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.18653/v1/2023.emnlp-main.278"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.18653/v1/2023.emnlp-main.278" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -854,7 +834,7 @@
         
         
         <div class="periodical">
-          <em>In 2023 International Joint Conference on Neural Networks (IJCNN)</em>, Dec 2023
+          <em>In International Joint Conference on Neural Networks (IJCNN)</em>, 2023
         </div>
         <div class="periodical">
           
@@ -867,8 +847,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right" data-doi="10.1109/IJCNN54540.2023.10191870"></span>
-              <span class="__dimensions_badge_embed__" data-doi="10.1109/IJCNN54540.2023.10191870" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -926,7 +904,7 @@
         
         
         <div class="periodical">
-          Jun 2023
+          2023
         </div>
         <div class="periodical">
           US Patent App. 18/075,555
@@ -938,8 +916,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           
@@ -997,7 +973,7 @@
         
         
         <div class="periodical">
-          <em>2021 43rd Annual International Conference of the IEEE Engineering in Medicine &amp; Biology Society (EMBC)</em>, Jun 2021
+          <em>IEEE Engineering in Medicine &amp; Biology Society (EMBC)</em>, 2021
         </div>
         <div class="periodical">
           
@@ -1010,8 +986,6 @@
           </div>
           
           <div class="badges">
-            <span class="altmetric-embed" data-hide-no-mentions="true" data-hide-less-than="15" data-badge-type="2" data-badge-popover="right"></span>
-              <span class="__dimensions_badge_embed__" data-pmid="" data-hide-zero-citations="true" data-style="small_rectangle" data-legend="hover-right" style="margin-bottom: 3px;"></span>
           </div>
 
           <!-- Hidden abstract block -->
@@ -1058,8 +1032,6 @@
   <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
 
     
-  <script async src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
-  <script async src="https://badge.dimensions.ai/badge.js"></script>
 
     <!-- MathJax -->
   <script type="text/javascript">
