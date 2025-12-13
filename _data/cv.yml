@@ -1,66 +1,10 @@
-- title: General Information
-  type: map
-  contents:
-    - name: Name
-      value: Na Min An
-    - name: Vision
-      value: Accomplished researcher committed to making the world a better place with artificial intelligence. Demonstrates both theoretical and practical knowledge of mathematics for developing human-interpretable vision and language models. Dedicated to personal development by working autonomously and aiming for successful team achievements.
-
-- title: Education
-  type: time_table
-  contents:
-    - title: MS/PhD Candidate
-      institution: Kim Jaechul Graduate School, Korea Advanced Institute of Science and Technology, South Korea
-      year: 2023
-      description:
-        - Joined Professor Thorne’s explainable factual reasoning lab in Spring 2023.
-
-    - title: BS
-      institution: Department of Mathematics, University of Seoul
-      year: 2022
-      description:
-        - Graduated with 1st class honors in the Mathematics department (GPA - 4.29/4.5).
-        - Received academic excellence or mayor's scholarship for every semester.
-
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Research Intern 
-      institution: Brain Science Institute, Korea Institute of Science and Technology
-      year: 2021 - 2022
-      description:
-        - Compared the recognition ability of machines and humans under low-resolution data.
-        - Built a reinforcement learning-based framework to stimulate human psychophysical tests of prosthetic vision.
-        - Designed an automatic image processing system for detecting edges of fluorescene images and hyperpolarization phenomenon.
-
-    - title: Research Intern
-      institution: Department of Mathematics, University of Seoul
-      year: 2020
-      description:
-        - Classified progressive stages of pulmonary nodules using variations of convolutional and recurrent neural networks.
-        - Predicted increasing rates of subscribers for ~1k food-related YouTube channels.
-
-
-    - title: Project Leader
-      institution: Department of Statistics, University of Seoul
-      year: 2020
-      description:
-        - Analyzed the risk factors of Covid-19 for each district of Seoul.
-        - Received the team excellence award and 3rd place (out of > 40) in the big data competition.
-
-
-    - title: Mentor/Teacher
-      institution: Multiple Affiliations
-      year: 2017 - 2020
-      description:
-        - Assisted MUAP (Master of Urban Administration and Planning) graduate school students adapt to new environments under the title of Seoul Friends (09/2020 – 12/2020).
-        - Participated in 16 hours of Dongdaemun District Mentoring Program to enhance English/math skills for middle/ high school students, respectively (1/2020 – 2/2020, 9/2019 – 12/2019).
-        - Worked in Haebub Math Academy to help elementary to high school students solve challenging math problems three times a week (07/2019 – 08/2019).
-        - Tour guided foreigners in Seoul and helped various programs hosted by Funday Korea Networks to run smoothly (03/2019 – 03/2020).
-        - Spread Korean culture (e.g., Tae-Kwon-do) and built wells near the primary school for Cambodians with World Share staff members (07/11/2018 – 07/20/2018).
-        - Volunteered to read English books to Seoul Sanghyeon Elementary School students every week for 40 hours of after-school program (03/2017 – 06/2017).
-
+# - title: General Information
+#   type: map
+#   contents:
+#     - name: Name
+#       value: Na Min An
+#     - name: Vision
+#       value: 
 
 # - title: Open Source Projects
 #   type: time_table
@@ -92,7 +36,7 @@
 #         - Description 1.
 #         - Description 2.
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Pilates 🧘🏻‍♀️ and Tennis 🎾
+# - title: Other Interests
+#   type: list
+#   contents:
+#     - <u>Hobbies:</u> Pilates 🧘🏻‍♀️ and Tennis 🎾
