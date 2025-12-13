@@ -1,6 +1,30 @@
 ---
 ---
 
+@article{park2025alignedstereotypicalhiddeninfluence,
+  title={Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models},
+  author={Park, NaHyeon$*$ and An, Na Min$*$ and Kim, Kunhee and Yoon, Soyeon and Huo, Jiahao and Shim, Hyunjung},
+  journal={arXiv preprint arXiv:2512.04981},
+  year={2025},
+  preview={fairpro.png},
+  url=https://arxiv.org/abs/2512.04981,
+  arxiv="2512.04981",
+  note = {$*$ indicates equal contribution.},
+  abstract="Large vision-language model (LVLM) based text-to-image (T2I) systems have become the dominant paradigm in image generation, yet whether they amplify social biases remains insufficiently understood. In this paper, we show that LVLM-based models produce markedly more socially biased images than non-LVLM-based models. We introduce a 1,024 prompt benchmark spanning four levels of linguistic complexity and evaluate demographic bias across multiple attributes in a systematic manner. Our analysis identifies system prompts, the predefined instructions guiding LVLMs, as a primary driver of biased behavior. Through decoded intermediate representations, token-probability diagnostics, and embedding-association analyses, we reveal how system prompts encode demographic priors that propagate into image synthesis. To this end, we propose FairPro, a training-free meta-prompting framework that enables LVLMs to self-audit and construct fairness-aware system prompts at test time. Experiments on two LVLM-based T2I models, SANA and Qwen-Image, show that FairPro substantially reduces demographic bias while preserving text-image alignment. We believe our findings provide deeper insight into the central role of system prompts in bias propagation and offer a practical, deployable approach for building more socially responsible T2I systems."
+  }
+
+@article{kim2025worldframeunderstandingculture,
+  title={World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models},
+  author={Kim$*$, Eunsu and Park, Junyeong$*$ and An, Na Min$*$ and Kim, Junseong and Patel, Hitesh Laxmichand and Jin, Jiho and Kruk, Julia and Agarwal, Amit and Panda, Srikant and Ilasariya, Fenal Ashokbhai and Shim, Hyunjung and Oh, Alice},
+  journal={arXiv preprint arXiv:2511.22787},
+  year={2025},
+  preview={culturemix.png},
+  url=https://arxiv.org/abs/2511.22787,
+  arxiv="2511.22787",
+  note = {$*$ indicates equal contribution.},
+  abstract="In a globalized world, cultural elements from diverse origins frequently appear together within a single visual scene. We refer to these as culture mixing scenarios, yet how Large Vision-Language Models (LVLMs) perceive them remains underexplored. We investigate culture mixing as a critical challenge for LVLMs and examine how current models behave when cultural items from multiple regions appear together. To systematically analyze these behaviors, we construct CultureMix, a food Visual Question Answering (VQA) benchmark with 23k diffusion-generated, human-verified culture mixing images across four subtasks: (1) food-only, (2) food+food, (3) food+background, and (4) food+food+background. Evaluating 10 LVLMs, we find consistent failures to preserve individual cultural identities in mixed settings. Models show strong background reliance, with accuracy dropping 14% when cultural backgrounds are added to food-only baselines, and they produce inconsistent predictions for identical foods across different contexts. To address these limitations, we explore three robustness strategies. We find supervised fine-tuning using a diverse culture mixing dataset substantially improve model consistency and reduce background sensitivity. We call for increased attention to culture mixing scenarios as a critical step toward developing LVLMs capable of operating reliably in culturally diverse real-world environments."
+  }
+
 @article{kim2025multiobjectivetaskawarepredictorimagetext,
   title={Multi-Objective Task-Aware Predictor for Image-Text Alignment},
   author={Kim$*$, Eunki and An$*$, Na Min and Thorne, James and Shim, Hyunjung},
@@ -39,7 +63,7 @@
 @article{waheed2025vlmguidedvisualplacerecognition,
       title={VLM-Guided Visual Place Recognition for Planet-Scale Geo-Localization}, 
       author={Waheed, Sania and An, Na Min and Milford, Michael and Ramchurn, Sarvapali D. and Ehsan, Shoaib},
-      journal={arXiv preprint arXiv:2507.17455},
+      journal={ACRA},
       year={2025},
       preview={vpr.png},
       url=https://arxiv.org/abs/2507.17455,
@@ -54,6 +78,7 @@
   year={2025},
   preview={hbop.png},
   url=https://arxiv.org/abs/2502.10118,
+  pdf = {https://aclanthology.org/2025.emnlp-main.156.pdf},
   arxiv="2502.10118",
   note = {$*$ indicates equal contribution.},
   abstract="Image Captioning for state-of-the-art VLMs has significantly improved over time; however, this comes at the cost of increased computational complexity, making them less accessible for resource-constrained applications such as mobile devices and assistive technologies. Alternatively, smaller VLMs prioritize high-level scene descriptions, overlooking finer details that contribute to a richer understanding of an image. In this paper, we introduce a training-free framework that enhances caption diversity and informativeness by explicitly attending to distinct image regions using a comparably small VLM, BLIP, as the backbone. Our approach leverages structured segmentation to produce hierarchical representations that capture both global and localized semantics. Without requiring additional model training, we demonstrate that our method allows smaller VLMs to achieve performance comparable to larger models in terms of image-caption alignment, semantic integrity, and diversity. We evaluate our framework on MSCOCO, Flickr30k, and Nocaps test datasets, achieving a Div-2 score of 0.735, 0.750, and 0.748 for each dataset respectively, while maintaining strong image-caption relevancy and semantic integrity with the human-annotated captions."
@@ -62,7 +87,7 @@
 @inproceedings{an-etal-2025-i0t,
   title={I0T: Embedding Standardization Method Towards Zero Modality Gap},
   author={An$*$, Na Min and Kim$*$, Eunki and Thorne, James and Shim, Hyunjung},
-  booktitle={ACL Outstanding (Top 1%, 26 out of ~3,000 accepted papers)},
+  booktitle={ACL (Outstanding; Top 1%, 26 out of ~3,000 accepted papers)},
   year = {2025},
   preview={I0T.png},
   url=https://arxiv.org/pdf/2412.14384,
@@ -75,7 +100,7 @@
 @inproceedings{bayramli2025diffusion,
   title={Diffusion Models Through a Global Lens: Are They Culturally Inclusive?},
   author={Bayramli$*$, Zahra and Suleymanzade$*$, Ayhan and An, Na Min and Ahmad, Huzama and Kim, Eunsu and Park, Junyeong and Thorne, James and Oh, Alice},
-  booktitle={ACL Oral (Top 8%, 243 out of ~3,000 accepted papers)},
+  booktitle={ACL (Oral; Top 8%, 243 out of ~3,000 accepted papers)},
   year={2025},
   url=https://arxiv.org/abs/2502.08914,
   pdf={https://aclanthology.org/2025.acl-long.1503.pdf},
@@ -89,7 +114,7 @@
   title={Sightation Counts: Leveraging Sighted User Feedback in Building a BLV-aligned Dataset of Diagram Descriptions},
   author={Kang, Wan Ju and Kim, Eunki and An, Na Min and Kim, Sangryul and Choi, Haemin and Kwak, Ki Hoon and Thorne, James},
   booktitle={ACL Main},
-  preview={dimensions_assignment.png},
+  preview={sightation.png},
   url=https://arxiv.org/abs/2503.13369,
   pdf={https://aclanthology.org/2025.acl-long.1338.pdf},
   arxiv="2503.13369",
@@ -180,7 +205,7 @@
 
 @INPROCEEDINGS{10191870,
   author={An, Na Min and Roh, Hyeonhee and Kim, Sein and Kim, Jae Hun and Im, Maesoon},
-  booktitle={IJCNN Oral}, 
+  booktitle={IJCNN (Oral)}, 
   title={Reinforcement Learning Framework to Simulate Short-Term Learning Effects of Human Psychophysical Experiments Assessing the Quality of Artificial Vision}, 
   year={2023},
   volume={},
