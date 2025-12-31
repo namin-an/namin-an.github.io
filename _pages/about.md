@@ -6,7 +6,7 @@ subtitle: Ph.D. Student at <a href='https://gsai.kaist.ac.kr/'>KAIST AI</a>
 
 profile:
   align: left
-  image: namin.JPG
+  image: namin.png
   image_circular: false # crops the image to make it circular
   address: 
 
@@ -22,4 +22,4 @@ These are the attributes that I strive to embody as an AI researcher. I believe 
 
 Since March 2023, I have been a full-time graduate student at <a href='https://xfact.net/'>XFact Lab</a> and <a href='https://kaist-cvml.github.io/'>CVML Lab</a>, co-adviced by Dr. <a href='https://scholar.google.com/citations?user=hao9RrgAAAAJ&hl=en&oi=ao'>James Thorne</a> and Prof. <a href='https://scholar.google.com/citations?user=KB5XZGIAAAAJ&hl=en'>Hyunjung Shim</a>. From March to May 2025, I was a visiting researcher at <a href='https://www.copenlu.com/'>CopeNLU</a>, collaborating with Prof. <a href='https://scholar.google.co.uk/citations?user=DjJp0dcAAAAJ&hl'>Isabelle Augenstein</a> and Dr. <a href='https://yoonnajang.github.io/'>Yoonna Jang</a>.
 
-My current research interest focuses on developing assistive, trustworthy AI and ML systems, with particular emphasis on mitigating modality and social biases in multimodal and generative models. Please feel free to contact me at <a href="mailto:naminan@kaist.ac.kr">naminan@kaist.ac.kr</a>!
+My current research interest focuses on developing assistive, trustworthy AI and ML systems, with particular emphasis on mitigating modality and social biases in multimodal and generative models from interpretability perspectives. Please feel free to contact me at <a href="mailto:naminan@kaist.ac.kr">naminan@kaist.ac.kr</a>!
