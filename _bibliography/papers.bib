@@ -1,28 +1,39 @@
 ---
 ---
 
+@article{an2026interpretable,
+  title={Interpretable Debiasing of Vision-Language Models for Social Fairness},
+  author={An, Na Min and Jang, Yoonna and Hirota, Yusuke and Hachiuma, Ryo and Augenstein, Isabelle and Shim, Hyunjung},
+  journal={CVPR},
+  year={2026},
+  preview={debiaslens.png},
+  url=https://arxiv.org/abs/2602.24014,
+  arxiv="2602.24014",
+  abstract="The rapid advancement of Vision-Language models (VLMs) has raised growing concerns that their black-box reasoning processes could lead to unintended forms of social bias. Current debiasing approaches focus on mitigating surface-level bias signals through post-hoc learning or test-time algorithms, while leaving the internal dynamics of the model largely unexplored. In this work, we introduce an interpretable, model-agnostic bias mitigation framework, DeBiasLens, that localizes social attribute neurons in VLMs through sparse autoencoders (SAEs) applied to multimodal encoders. Building upon the disentanglement ability of SAEs, we train them on facial image or caption datasets without corresponding social attribute labels to uncover neurons highly responsive to specific demographics, including those that are underrepresented. By selectively deactivating the social neurons most strongly tied to bias for each group, we effectively mitigate socially biased behaviors of VLMs without degrading their semantic knowledge. Our research lays the groundwork for future auditing tools, prioritizing social fairness in emerging real-world AI systems."
+  }
+
+@article{kim2025worldframeunderstandingculture,
+  title={World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models},
+  author={Kim$*$, Eunsu and Park$*$, Junyeong and An$*$, Na Min and Kim, Junseong and Patel, Hitesh Laxmichand and Jin, Jiho and Kruk, Julia and Agarwal, Amit and Panda, Srikant and Ilasariya, Fenal Ashokbhai and Shim, Hyunjung and Oh, Alice},
+  journal={CVPR},
+  year={2026},
+  preview={culturemix.png},
+  url=https://arxiv.org/abs/2511.22787,
+  arxiv="2511.22787",
+  note = {$*$ indicates equal contribution.},
+  abstract="In a globalized world, cultural elements from diverse origins frequently appear together within a single visual scene. We refer to these as culture mixing scenarios, yet how Large Vision-Language Models (LVLMs) perceive them remains underexplored. We investigate culture mixing as a critical challenge for LVLMs and examine how current models behave when cultural items from multiple regions appear together. To systematically analyze these behaviors, we construct CultureMix, a food Visual Question Answering (VQA) benchmark with 23k diffusion-generated, human-verified culture mixing images across four subtasks: (1) food-only, (2) food+food, (3) food+background, and (4) food+food+background. Evaluating 10 LVLMs, we find consistent failures to preserve individual cultural identities in mixed settings. Models show strong background reliance, with accuracy dropping 14% when cultural backgrounds are added to food-only baselines, and they produce inconsistent predictions for identical foods across different contexts. To address these limitations, we explore three robustness strategies. We find supervised fine-tuning using a diverse culture mixing dataset substantially improve model consistency and reduce background sensitivity. We call for increased attention to culture mixing scenarios as a critical step toward developing LVLMs capable of operating reliably in culturally diverse real-world environments."
+  }
+
 @article{park2025alignedstereotypicalhiddeninfluence,
   title={Aligned but Stereotypical? The Hidden Influence of System Prompts on Social Bias in LVLM-Based Text-to-Image Models},
-  author={Park, NaHyeon$*$ and An$*$, Na Min and Kim, Kunhee and Yoon, Soyeon and Huo, Jiahao and Shim, Hyunjung},
-  journal={arXiv preprint arXiv:2512.04981},
+  author={Park$*$, NaHyeon and An$*$, Na Min and Kim, Kunhee and Yoon, Soyeon and Huo, Jiahao and Shim, Hyunjung},
+  journal={ICLR RSI Workshop},
   year={2025},
   preview={fairpro.png},
   url=https://arxiv.org/abs/2512.04981,
   arxiv="2512.04981",
   note = {$*$ indicates equal contribution.},
   abstract="Large vision-language model (LVLM) based text-to-image (T2I) systems have become the dominant paradigm in image generation, yet whether they amplify social biases remains insufficiently understood. In this paper, we show that LVLM-based models produce markedly more socially biased images than non-LVLM-based models. We introduce a 1,024 prompt benchmark spanning four levels of linguistic complexity and evaluate demographic bias across multiple attributes in a systematic manner. Our analysis identifies system prompts, the predefined instructions guiding LVLMs, as a primary driver of biased behavior. Through decoded intermediate representations, token-probability diagnostics, and embedding-association analyses, we reveal how system prompts encode demographic priors that propagate into image synthesis. To this end, we propose FairPro, a training-free meta-prompting framework that enables LVLMs to self-audit and construct fairness-aware system prompts at test time. Experiments on two LVLM-based T2I models, SANA and Qwen-Image, show that FairPro substantially reduces demographic bias while preserving text-image alignment. We believe our findings provide deeper insight into the central role of system prompts in bias propagation and offer a practical, deployable approach for building more socially responsible T2I systems."
-  }
-
-@article{kim2025worldframeunderstandingculture,
-  title={World in a Frame: Understanding Culture Mixing as a New Challenge for Vision-Language Models},
-  author={Kim$*$, Eunsu and Park, Junyeong$*$ and An$*$, Na Min and Kim, Junseong and Patel, Hitesh Laxmichand and Jin, Jiho and Kruk, Julia and Agarwal, Amit and Panda, Srikant and Ilasariya, Fenal Ashokbhai and Shim, Hyunjung and Oh, Alice},
-  journal={arXiv preprint arXiv:2511.22787},
-  year={2025},
-  preview={culturemix.png},
-  url=https://arxiv.org/abs/2511.22787,
-  arxiv="2511.22787",
-  note = {$*$ indicates equal contribution.},
-  abstract="In a globalized world, cultural elements from diverse origins frequently appear together within a single visual scene. We refer to these as culture mixing scenarios, yet how Large Vision-Language Models (LVLMs) perceive them remains underexplored. We investigate culture mixing as a critical challenge for LVLMs and examine how current models behave when cultural items from multiple regions appear together. To systematically analyze these behaviors, we construct CultureMix, a food Visual Question Answering (VQA) benchmark with 23k diffusion-generated, human-verified culture mixing images across four subtasks: (1) food-only, (2) food+food, (3) food+background, and (4) food+food+background. Evaluating 10 LVLMs, we find consistent failures to preserve individual cultural identities in mixed settings. Models show strong background reliance, with accuracy dropping 14% when cultural backgrounds are added to food-only baselines, and they produce inconsistent predictions for identical foods across different contexts. To address these limitations, we explore three robustness strategies. We find supervised fine-tuning using a diverse culture mixing dataset substantially improve model consistency and reduce background sensitivity. We call for increased attention to culture mixing scenarios as a critical step toward developing LVLMs capable of operating reliably in culturally diverse real-world environments."
   }
 
 @article{kim2025multiobjectivetaskawarepredictorimagetext,
