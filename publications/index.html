@@ -304,7 +304,7 @@
         <div class="author">
         
 
-        <em>Na Min An</em>, Inha Kang, Minhyun Lee, and Hyunjung Shim</div>
+        <em>Na Min An*</em>, Inha Kang*, Minhyun Lee, and Hyunjung Shim</div>
 
         <!-- Journal/Book title and date -->
         
@@ -313,7 +313,7 @@
           <em>arXiv preprint arXiv:2509.23098</em>, 2026
         </div>
         <div class="periodical">
-          
+          * indicates equal contribution.
         </div>
 
           <!-- Links/Buttons -->
@@ -327,7 +327,7 @@
 
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
-            <p>Spatial grounding is crucial for referring image segmentation (RIS), where the goal of the task is to localize an object described by language. Current foundational vision-language models (VLMs), such as CLIP, excel at aligning images and text but struggle with understanding spatial relationships. Within the language stream, most existing methods often focus on the primary noun phrase when extracting local text features, undermining contextual tokens. Within the vision stream, CLIP generates similar features for images with different spatial layouts, resulting in limited sensitivity to spatial structure. To address these limitations, we propose \textscCoPatch, a zero-shot RIS framework that leverages internal model components to enhance spatial representations in both text and image modalities. For language, CoPatch constructs hybrid text features by incorporating context tokens carrying spatial cues. For vision, it extracts patch-level image features using our novel path discovered from intermediate layers, where spatial structure is better preserved. These enhanced features are fused into a clustered image-text similarity map, CoMap, enabling precise mask selection. As a result, CoPatch significantly improves spatial grounding in zero-shot RIS across RefCOCO, RefCOCO+, RefCOCOg, and PhraseCut (+ 2–7 mIoU) without requiring any additional training. Our findings underscore the importance of recovering and leveraging the untapped spatial knowledge inherently embedded in VLMs, thereby paving the way for opportunities in zero-shot RIS.</p>
+            <p>Vision-Language Encoders (VLEs) are widely adopted as the backbone of zero-shot referring image segmentation (RIS), enabling text-guided localization without task-specific training. However, prior works underexplored the underlying biases within mid-layer representations that preserve positional and language-specific information. Through layer-wise investigation, we reveal that the conventionally used final-layer multimodal embeddings prioritize global semantic alignment, leading to two coupled consequences. First, vision embeddings exhibit weak sensitivity to positional cues. Second, multilingual text embeddings form language-dependent geometric shifts within the shared space. Motivated by these findings, we identify an underexplored pathway within VLE mid-layers to construct a spatial map, applicable for improving zero-shot RIS by 1-7 mIoU on nine RefCOCO benchmarks. Furthermore, leveraging mixed-language mid-layer embeddings yields enhanced spatial grounding accuracy (+7-8 mIoU and IoU@50), albeit with increased inference cost, and also improves performance on the zero-shot text-to-image retrieval task. Our work opens up the discussion about the effects of effective representational bias probing of VLEs for enhanced spatial grounding.</p>
           </div>
         </div>
       </div>
