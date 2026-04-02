@@ -48,29 +48,16 @@
   abstract="Vision-Language Encoders (VLEs) are widely adopted as the backbone of zero-shot referring image segmentation (RIS), enabling text-guided localization without task-specific training. However, prior works underexplored the underlying biases within mid-layer representations that preserve positional and language-specific information. Through layer-wise investigation, we reveal that the conventionally used final-layer multimodal embeddings prioritize global semantic alignment, leading to two coupled consequences. First, vision embeddings exhibit weak sensitivity to positional cues. Second, multilingual text embeddings form language-dependent geometric shifts within the shared space. Motivated by these findings, we identify an underexplored pathway within VLE mid-layers to construct a spatial map, applicable for improving zero-shot RIS by 1-7 mIoU on nine RefCOCO benchmarks. Furthermore, leveraging mixed-language mid-layer embeddings yields enhanced spatial grounding accuracy (+7-8 mIoU and IoU@50), albeit with increased inference cost, and also improves performance on the zero-shot text-to-image retrieval task. Our work opens up the discussion about the effects of effective representational bias probing of VLEs for enhanced spatial grounding."
   }
 
-@article{kim2025multiobjectivetaskawarepredictorimagetext,
-  title={Multi-Objective Task-Aware Predictor for Image-Text Alignment},
-  author={Kim$*$, Eunki and An$*$, Na Min and Thorne, James and Shim, Hyunjung},
+@article{kim2026largevisionlanguagemodelsready,
+  title={Are Large Vision-Language Models Ready to Guide Blind and Low-Vision Individuals?},
+  author={Kim$*$, Eunki and An$*$, Na Min and Wan Ju and Kim, Sangryul and Thorne, James and Shim, Hyunjung},
   journal={arXiv preprint arXiv:2510.00766},
-  year={2025},
-  preview={multitap.png},
+  year={2026},
+  preview={vlguide.png},
   url=https://arxiv.org/abs/2510.00766,
   arxiv="2510.00766",
   note = {$*$ indicates equal contribution.},
-  abstract="Evaluating image-text alignment while reflecting human preferences across multiple aspects is a significant issue for the development of reliable vision-language applications. It becomes especially crucial in real-world scenarios where multiple valid descriptions exist depending on contexts or user needs. However, research progress is hindered by the lack of comprehensive benchmarks and existing evaluation predictors lacking at least one of these key properties: (1) Alignment with human judgments, (2) Long-sequence processing, (3) Inference efficiency, and (4) Applicability to multi-objective scoring. To address these challenges, we propose a plug-and-play architecture to build a robust predictor, MULTI-TAP (Multi-Objective Task-Aware Predictor), capable of both multi and single-objective scoring. MULTI-TAP can produce a single overall score, utilizing a reward head built on top of a large vision-language model (LVLMs). We show that MULTI-TAP is robust in terms of application to different LVLM architectures, achieving significantly higher performance than existing metrics and even on par with the GPT-4o-based predictor, G-VEval, with a smaller size (7-8B). By training a lightweight ridge regression layer on the frozen hidden states of a pre-trained LVLM, MULTI-TAP can produce fine-grained scores for multiple human-interpretable objectives. MULTI-TAP performs better than VisionREWARD, a high-performing multi-objective reward model, in both performance and efficiency on multi-objective benchmarks and our newly released text-image-to-text dataset, EYE4ALL. Our new dataset, consisting of chosen/rejected human preferences (EYE4ALLPref) and human-annotated fine-grained scores across seven dimensions (EYE4ALLMulti), can serve as a foundation for developing more accessible AI systems by capturing the underlying preferences of users, including blind and low-vision (BLV) individuals."
-  }
-
-@article{an2025blindlowvisionindividualsprefer,
-  title={How Blind and Low-Vision Individuals Prefer Large Vision-Language Model-Generated Scene Descriptions},
-  author={An$*$, Na Min and Kim$*$, Eunki and Kang, Wan Ju and Kim, Sangryul and Thorne, James and Shim, Hyunjung},
-  journal={arXiv preprint arXiv:2502.14883},
-  year={2025},
-  preview={eye4b.png},
-  url=https://arxiv.org/abs/2502.14883,
-  arxiv="2502.14883",
-  note = {$*$ indicates equal contribution.},
-  abstract="For individuals with blindness or low vision (BLV), navigating complex environments can pose serious risks. Large Vision-Language Models (LVLMs) show promise for generating scene descriptions, but their effectiveness for BLV users remains underexplored. To address this gap, we conducted a user study with eight BLV participants to systematically evaluate preferences for six types of LVLM descriptions. While they helped to reduce fear and improve actionability, user ratings showed wide variation in sufficiency and conciseness. Furthermore, GPT-4o--despite its strong potential to refine descriptions--was not consistently preferred by participants. We use the insights obtained from the user study to build training data for building our new automatic evaluation metric that can capture BLV preferences effectively. Our findings underscore the urgent need for BLV-centered evaluation metrics and human-in-the-loop feedback to advance LVLM description quality for accessibility."
-  }
+  abstract="Large Vision-Language Models (LVLMs) demonstrate a promising direction for assisting individuals with blindness or low-vision (BLV). Yet, measuring their true utility in real-world scenarios is challenging because evaluating whether their descriptions are BLV-informative requires a fundamentally different approach from assessing standard scene descriptions. While the "VLM-as-a-metric" or "LVLM-as-a-judge" paradigm has emerged, existing evaluators still fall short of capturing the unique requirements of BLV-centric evaluation, lacking at least one of the following key properties: (1) High correlation with human judgments, (2) Long instruction understanding, (3) Score generation efficiency, and (4) Multi-dimensional assessment. To this end, we propose a unified framework to bridge the gap between automated evaluation and actual BLV needs. First, we conduct an in-depth user study with BLV participants to understand and quantify their navigational preferences, curating VL-GUIDEDATA, a large-scale BLV user-simulated preference dataset containing image-request-response-score pairs. We then leverage the dataset to develop an accessibility-aware evaluator, VL-GUIDE-S, which outperforms existing (L)VLM judges in both human alignment and inference efficiency. Notably, its effectiveness extends beyond a single domain, demonstrating strong performance across multiple fine-grained, BLV-critical dimensions. We hope our work lays as a foundation for automatic AI judges that advance safe, barrier-free navigation for BLV users."}
 
 @article{waheed2025vlmguidedvisualplacerecognition,
       title={VLM-Guided Visual Place Recognition for Planet-Scale Geo-Localization}, 
