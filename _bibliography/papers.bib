@@ -1,5 +1,16 @@
 ---
 ---
+@article{kim2026largevisionlanguagemodelsready,
+  title={Are Large Vision-Language Models Ready to Guide Blind and Low-Vision Individuals?},
+  author={Kim$*$, Eunki and An$*$, Na Min and Kang, Wan Ju and Kim, Sangryul and Thorne, James and Shim, Hyunjung},
+  journal={COLM},
+  year={2026},
+  preview={vlguide.png},
+  url=https://arxiv.org/abs/2510.00766,
+  arxiv="2510.00766",
+  note = {$*$ indicates equal contribution.},
+  abstract="Large Vision-Language Models (LVLMs) demonstrate a promising direction for assisting individuals with blindness or low-vision (BLV). Yet, measuring their true utility in real-world scenarios is challenging because evaluating whether their descriptions are BLV-informative requires a fundamentally different approach from assessing standard scene descriptions. While the 'VLM-as-a-metric' or 'LVLM-as-a-judge' paradigm has emerged, existing evaluators still fall short of capturing the unique requirements of BLV-centric evaluation, lacking at least one of the following key properties: (1) High correlation with human judgments, (2) Long instruction understanding, (3) Score generation efficiency, and (4) Multi-dimensional assessment. To this end, we propose a unified framework to bridge the gap between automated evaluation and actual BLV needs. First, we conduct an in-depth user study with BLV participants to understand and quantify their navigational preferences, curating VL-GUIDEDATA, a large-scale BLV user-simulated preference dataset containing image-request-response-score pairs. We then leverage the dataset to develop an accessibility-aware evaluator, VL-GUIDE-S, which outperforms existing (L)VLM judges in both human alignment and inference efficiency. Notably, its effectiveness extends beyond a single domain, demonstrating strong performance across multiple fine-grained, BLV-critical dimensions. We hope our work lays as a foundation for automatic AI judges that advance safe, barrier-free navigation for BLV users."}
+
 @article{an2025copatchzeroshotreferringimage,
   title={Blind to Position, Biased in Language: Probing Mid-Layer Representational Bias in Vision-Language Encoders for Zero-Shot Language-Grounded Spatial Understanding},
   author={An$*$, Na Min and Kang$*$, Inha and Lee, Minhyun and Shim, Hyunjung},
@@ -46,17 +57,6 @@
   note = {$*$ indicates equal contribution.},
   abstract="Large vision-language model (LVLM) based text-to-image (T2I) systems have become the dominant paradigm in image generation, yet whether they amplify social biases remains insufficiently understood. In this paper, we show that LVLM-based models produce markedly more socially biased images than non-LVLM-based models. We introduce a 1,024 prompt benchmark spanning four levels of linguistic complexity and evaluate demographic bias across multiple attributes in a systematic manner. Our analysis identifies system prompts, the predefined instructions guiding LVLMs, as a primary driver of biased behavior. Through decoded intermediate representations, token-probability diagnostics, and embedding-association analyses, we reveal how system prompts encode demographic priors that propagate into image synthesis. To this end, we propose FairPro, a training-free meta-prompting framework that enables LVLMs to self-audit and construct fairness-aware system prompts at test time. Experiments on two LVLM-based T2I models, SANA and Qwen-Image, show that FairPro substantially reduces demographic bias while preserving text-image alignment. We believe our findings provide deeper insight into the central role of system prompts in bias propagation and offer a practical, deployable approach for building more socially responsible T2I systems."
   }
-
-@article{kim2026largevisionlanguagemodelsready,
-  title={Are Large Vision-Language Models Ready to Guide Blind and Low-Vision Individuals?},
-  author={Kim$*$, Eunki and An$*$, Na Min and Kang, Wan Ju and Kim, Sangryul and Thorne, James and Shim, Hyunjung},
-  journal={arXiv preprint arXiv:2510.00766},
-  year={2026},
-  preview={vlguide.png},
-  url=https://arxiv.org/abs/2510.00766,
-  arxiv="2510.00766",
-  note = {$*$ indicates equal contribution.},
-  abstract="Large Vision-Language Models (LVLMs) demonstrate a promising direction for assisting individuals with blindness or low-vision (BLV). Yet, measuring their true utility in real-world scenarios is challenging because evaluating whether their descriptions are BLV-informative requires a fundamentally different approach from assessing standard scene descriptions. While the 'VLM-as-a-metric' or 'LVLM-as-a-judge' paradigm has emerged, existing evaluators still fall short of capturing the unique requirements of BLV-centric evaluation, lacking at least one of the following key properties: (1) High correlation with human judgments, (2) Long instruction understanding, (3) Score generation efficiency, and (4) Multi-dimensional assessment. To this end, we propose a unified framework to bridge the gap between automated evaluation and actual BLV needs. First, we conduct an in-depth user study with BLV participants to understand and quantify their navigational preferences, curating VL-GUIDEDATA, a large-scale BLV user-simulated preference dataset containing image-request-response-score pairs. We then leverage the dataset to develop an accessibility-aware evaluator, VL-GUIDE-S, which outperforms existing (L)VLM judges in both human alignment and inference efficiency. Notably, its effectiveness extends beyond a single domain, demonstrating strong performance across multiple fine-grained, BLV-critical dimensions. We hope our work lays as a foundation for automatic AI judges that advance safe, barrier-free navigation for BLV users."}
 
 @article{waheed2025vlmguidedvisualplacerecognition,
       title={VLM-Guided Visual Place Recognition for Planet-Scale Geo-Localization}, 
