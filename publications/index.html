@@ -112,6 +112,63 @@
 
   <picture>
     
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/vlguide-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/vlguide-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/vlguide-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/vlguide.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="vlguide.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+        <!-- Entry bib key -->
+        <div id="kim2026largevisionlanguagemodelsready" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Are Large Vision-Language Models Ready to Guide Blind and Low-Vision Individuals?</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Eunki Kim*, <em>Na Min An*</em>, Wan Ju Kang, Sangryul Kim, James Thorne, and Hyunjung Shim</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>COLM</em>, 2026
+        </div>
+        <div class="periodical">
+          * indicates equal contribution.
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="http://arxiv.org/abs/2510.00766" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Large Vision-Language Models (LVLMs) demonstrate a promising direction for assisting individuals with blindness or low-vision (BLV). Yet, measuring their true utility in real-world scenarios is challenging because evaluating whether their descriptions are BLV-informative requires a fundamentally different approach from assessing standard scene descriptions. While the ’VLM-as-a-metric’ or ’LVLM-as-a-judge’ paradigm has emerged, existing evaluators still fall short of capturing the unique requirements of BLV-centric evaluation, lacking at least one of the following key properties: (1) High correlation with human judgments, (2) Long instruction understanding, (3) Score generation efficiency, and (4) Multi-dimensional assessment. To this end, we propose a unified framework to bridge the gap between automated evaluation and actual BLV needs. First, we conduct an in-depth user study with BLV participants to understand and quantify their navigational preferences, curating VL-GUIDEDATA, a large-scale BLV user-simulated preference dataset containing image-request-response-score pairs. We then leverage the dataset to develop an accessibility-aware evaluator, VL-GUIDE-S, which outperforms existing (L)VLM judges in both human alignment and inference efficiency. Notably, its effectiveness extends beyond a single domain, demonstrating strong performance across multiple fine-grained, BLV-critical dimensions. We hope our work lays as a foundation for automatic AI judges that advance safe, barrier-free navigation for BLV users.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 preview">
+<figure>
+
+  <picture>
+    
     <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/b2g-480.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/b2g-800.webp"></source>
     <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/b2g-1400.webp"></source>
@@ -328,63 +385,6 @@
           <!-- Hidden abstract block -->
           <div class="abstract hidden">
             <p>Large vision-language model (LVLM) based text-to-image (T2I) systems have become the dominant paradigm in image generation, yet whether they amplify social biases remains insufficiently understood. In this paper, we show that LVLM-based models produce markedly more socially biased images than non-LVLM-based models. We introduce a 1,024 prompt benchmark spanning four levels of linguistic complexity and evaluate demographic bias across multiple attributes in a systematic manner. Our analysis identifies system prompts, the predefined instructions guiding LVLMs, as a primary driver of biased behavior. Through decoded intermediate representations, token-probability diagnostics, and embedding-association analyses, we reveal how system prompts encode demographic priors that propagate into image synthesis. To this end, we propose FairPro, a training-free meta-prompting framework that enables LVLMs to self-audit and construct fairness-aware system prompts at test time. Experiments on two LVLM-based T2I models, SANA and Qwen-Image, show that FairPro substantially reduces demographic bias while preserving text-image alignment. We believe our findings provide deeper insight into the central role of system prompts in bias propagation and offer a practical, deployable approach for building more socially responsible T2I systems.</p>
-          </div>
-        </div>
-      </div>
-</li>
-<li>
-<!-- _layouts/bib.html -->
-      <div class="row">
-        <div class="col-sm-2 preview">
-<figure>
-
-  <picture>
-    
-    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/vlguide-480.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/vlguide-800.webp"></source>
-    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/vlguide-1400.webp"></source>
-    
-
-    <!-- Fallback to the original file -->
-    <img src="/assets/img/publication_preview/vlguide.png" class="preview z-depth-1 rounded" width="auto" height="auto" alt="vlguide.png" onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
-
-  </picture>
-
-</figure>
-</div>
-
-        <!-- Entry bib key -->
-        <div id="kim2026largevisionlanguagemodelsready" class="col-sm-8">
-        <!-- Title -->
-        <div class="title">Are Large Vision-Language Models Ready to Guide Blind and Low-Vision Individuals?</div>
-        <!-- Author -->
-        <div class="author">
-        
-
-        Eunki Kim*, <em>Na Min An*</em>, Wan Ju Kang, Sangryul Kim, James Thorne, and Hyunjung Shim</div>
-
-        <!-- Journal/Book title and date -->
-        
-        
-        <div class="periodical">
-          <em>arXiv preprint arXiv:2510.00766</em>, 2026
-        </div>
-        <div class="periodical">
-          * indicates equal contribution.
-        </div>
-
-          <!-- Links/Buttons -->
-          <div class="links">
-            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
-            <a href="http://arxiv.org/abs/2510.00766" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">arXiv</a>
-          </div>
-          
-          <div class="badges">
-          </div>
-
-          <!-- Hidden abstract block -->
-          <div class="abstract hidden">
-            <p>Large Vision-Language Models (LVLMs) demonstrate a promising direction for assisting individuals with blindness or low-vision (BLV). Yet, measuring their true utility in real-world scenarios is challenging because evaluating whether their descriptions are BLV-informative requires a fundamentally different approach from assessing standard scene descriptions. While the ’VLM-as-a-metric’ or ’LVLM-as-a-judge’ paradigm has emerged, existing evaluators still fall short of capturing the unique requirements of BLV-centric evaluation, lacking at least one of the following key properties: (1) High correlation with human judgments, (2) Long instruction understanding, (3) Score generation efficiency, and (4) Multi-dimensional assessment. To this end, we propose a unified framework to bridge the gap between automated evaluation and actual BLV needs. First, we conduct an in-depth user study with BLV participants to understand and quantify their navigational preferences, curating VL-GUIDEDATA, a large-scale BLV user-simulated preference dataset containing image-request-response-score pairs. We then leverage the dataset to develop an accessibility-aware evaluator, VL-GUIDE-S, which outperforms existing (L)VLM judges in both human alignment and inference efficiency. Notably, its effectiveness extends beyond a single domain, demonstrating strong performance across multiple fine-grained, BLV-critical dimensions. We hope our work lays as a foundation for automatic AI judges that advance safe, barrier-free navigation for BLV users.</p>
           </div>
         </div>
       </div>
