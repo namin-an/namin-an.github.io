@@ -6,7 +6,7 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: Na Min
 middle_name: 
 last_name: An
-email: namin0202@gmai.com
+email: namin0202@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Ph.D. student at KAIST AI
 footer_text: 
@@ -70,7 +70,7 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 
 github_username: namin-an # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: # your Twitter handle
+twitter_username: na_min_nie # your Twitter handle
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 linkedin_username: namin-an-0202 # your LinkedIn user name
 telegram_username: # your Telegram user name
@@ -98,7 +98,7 @@ pinterest_id: # your pinterest id
 unsplash_id: # your unsplash id
 instagram_id: # your instagram id
 facebook_id: # your facebook id
-youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
+youtube_id: naminan3407 # your youtube channel id (youtube.com/@<youtube_id>)
 discord_id: # your discord id (18-digit unique numerical identifier)
 
 contact_note: >
